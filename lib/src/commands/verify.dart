@@ -20,7 +20,7 @@ class VerifySeedPhrase extends Command {
   @override
   void run() {
     if (argResults == null) {
-      print(exists('Try running chain -h'));
+      print(exists('Try running chain_cli -h'));
       exit(1);
     }
 

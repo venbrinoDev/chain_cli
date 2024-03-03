@@ -1,7 +1,9 @@
-name: chain
+name: chain_cli
 description: Used to manage and generate seed pharse 
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/venbrinoDev/chain_cli.git
+homepage: https://github.com/venbrinoDev/chain_cli
+issue_tracker: https://github.com/venbrinoDev/chain_cli/issues
 
 environment:
   sdk: ^3.2.6
@@ -17,4 +19,4 @@ dev_dependencies:
   test: ^1.24.0
 
 executables: 
-  chain: chain_install
+  chain_cli: chain_install
