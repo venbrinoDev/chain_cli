@@ -9,3 +9,5 @@ void start(List<String> args) {
     ..addCommand(VerifySeedPhrase());
   runner.run(args);
 }
+
+
