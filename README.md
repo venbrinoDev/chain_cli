@@ -14,19 +14,19 @@ This is a command-line interface (CLI) tool written in Dart that helps you creat
 
 ## Install the `chain` package from Pub:
 ```bash
-$ pub global activate chain
+$ dart pub global activate chain_cli
 ```
 
 
 ## Install this project as a global package:
 ```bash
-$ pub global activate --source path . # current directory
-$ pub global activate --source path ./path/to/projectDir # specify project path
+$ dart pub global activate --source path . # current directory
+$ dart pub global activate --source path ./path/to/projectDir # specify project path
 ```
 
 ## Uninstall this project
 ```bash
-$ pub global deactivate chain
+$ dart pub global deactivate chain_cli
 ```
 
 
@@ -37,7 +37,7 @@ $ pub global deactivate chain
 To generate a new mnemonic seed phrase, use the following command:
 
 ```bash
-$ chain generate
+$ chain_cli generate
 ```
 This command will output a new mnemonic seed phrase that can be used to generate a wallet.
 
@@ -45,27 +45,27 @@ This command will output a new mnemonic seed phrase that can be used to generate
 To verify if a seed phrase is correct, use the following command:
 
 ```bash 
-$ chain verify --seed="<seed_phrase>"
+$ chain_cli verify --seed="<seed_phrase>"
 ```
 Replace <seed_phrase> with the seed phrase you want to verify. If the seed phrase is correct, it will output "Your seed phrase is correct"; otherwise, it will output "Incorrect seed phrase".
 
 ## Send Crypto 
 Coming soon 
 ```bash
-$ chain send --amount 
+$ chain_cli send --amount 
 ```
 
 ## Check Wallet Balance
 Coming soon 
 ```bash
-$ chain send --balance="<wallet_address>" 
+$ chain_cli send --balance="<wallet_address>" 
 ```
 
 ## Help
 if you are stuck you can run this command any time to find your way
 
 ```bash
-$ chain help
+$ chain_cli help
 ```
 
 ## Contributing
